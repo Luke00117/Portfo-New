@@ -89,7 +89,7 @@ function validateForm() {
 //scroll down button functionality 
 document.addEventListener('DOMContentLoaded', function () {
     // Check if the script should run on the index.html page
-    if (window.location.pathname.endsWith('/index.html')) {
+    if (window.location.pathname.endsWith('/index.html' || '/')) {
         var scrollDownButton = document.getElementById('scrollDownButton');
         var projectBlock = document.getElementById('portfolio');
 
