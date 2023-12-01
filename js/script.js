@@ -88,8 +88,10 @@ function validateForm() {
 
 //scroll down button functionality 
 document.addEventListener('DOMContentLoaded', function () {
-    // Check if the script should run on the index.html page
-    if (window.location.pathname.endsWith('/index.html' || '/Portfo-New/')) {
+    var isMatchingURL = window.location.href === 'https://luke00117.github.io/Portfo-New/';
+    var isIndexPage = window.location.pathname.endsWith('/index.html');
+
+    if (isMatchingURL || isIndexPage) {
         var scrollDownButton = document.getElementById('scrollDownButton');
         var projectBlock = document.getElementById('portfolio');
 
