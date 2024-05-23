@@ -85,7 +85,7 @@ function validateForm() {
         }
 
 
-
+//Focus on your work Bud!
 //scroll down button functionality 
 document.addEventListener('DOMContentLoaded', function () {
     var isMatchingURL = window.location.href === 'https://luke00117.github.io/Portfo-New/';
